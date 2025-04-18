@@ -1,0 +1,66 @@
+html {
+   font-family: "system-ui";
+}
+
+ul,
+ol {
+   margin-left: 20px;
+}
+
+img {
+   max-width: 100%;
+}
+
+#app {
+   background-color: #0a2e2a;
+   font-weight: normal;
+   max-width: 1280px;
+   margin: 0 auto;
+   padding: 12px;
+}
+
+a,
+.green {
+   color: #00bd7e;
+   padding: 3px;
+   text-decoration: none;
+   transition: 0.4s;
+}
+
+.v-expansion-panel-text__wrapper {
+   padding: 4px 8px 4px;
+}
+
+.v-slide-group__content {
+   flex-wrap: wrap;
+   max-width: 100%;
+}
+
+.recipe-details {
+   margin-bottom: 40px;
+}
+.recipe-details > h2 {
+   margin-top: 32px;
+}
+
+.favorite-list {
+   display: flex;
+   flex-wrap: wrap;
+}
+.favorite-btn {
+   position: absolute;
+   top: 5px;
+   right: 5px;
+   z-index: 9;
+}
+
+.recipe-list a:hover {
+   background-color: #125049;
+}
+.recipe-list li {
+   font-size: 22px;
+   margin: 12px 0;
+}
+
+@media screen and (max-width: 960px) {
+}

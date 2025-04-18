@@ -5,11 +5,7 @@ import vue from "@vitejs/plugin-vue"
 import vueDevTools from "vite-plugin-vue-devtools"
 
 export default defineConfig({
-   // css: {
-   //    postcss: {
-   //       plugins: [tailwind(), autoprefixer()],
-   //    },
-   // },
+   base: "/youcookit/",
 
    plugins: [vue(), vueDevTools()],
 
